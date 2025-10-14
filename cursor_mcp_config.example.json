@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "merval": {
+      "command": "python",
+      "args": ["/ruta/completa/a/mcp-merval/server.py"],
+      "env": {
+        "PYTHONPATH": "/ruta/completa/a/mcp-merval",
+        "LOG_LEVEL": "INFO",
+        "BROKER_CONFIG_PATH": "/ruta/completa/a/mcp-merval/broker_config.json",
+        "FORCE_LIVE_ENVIRONMENT": "true",
+        "USE_PYROFEX_FOR_MEP": "true"
+      }
+    }
+  }
+}

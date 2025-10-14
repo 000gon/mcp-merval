@@ -1,0 +1,24 @@
+{
+  "brokers": {
+    "eco": {
+      "name": "Eco Valores",
+      "api_url": "https://api.eco.xoms.com.ar/",
+      "timeout_seconds": 10,
+      "default": true
+    },
+    "veta": {
+      "name": "Veta Capital",
+      "api_url": "https://api.veta.xoms.com.ar/",
+      "timeout_seconds": 10,
+      "default": false
+    }
+  },
+  "user_accounts": {
+    "trader": {
+      "broker": "eco",
+      "username": "(tu CUIT sin guiones)",
+      "password": "(tu contraseña de Matriz DMA)",
+      "account": "(tu número de cuenta comitente)"
+    }
+  }
+}

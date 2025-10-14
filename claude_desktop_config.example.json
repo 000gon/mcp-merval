@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "merval": {
+      "command": "python",
+      "args": [
+        "server.py"
+      ],
+      "cwd": "/ruta/completa/a/mcp-merval"
+    }
+  }
+}
